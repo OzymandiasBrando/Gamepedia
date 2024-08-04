@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100vh;
+  line-height: 0;
+  padding: 20px;
+}
+
+header p {
+  margin-left: 5px;
+}
+
+.wiki-header {
+  display: flex;
+  margin: 9px;
+  align-items: center;
+}
+
+.wiki-header p {
+  margin-top: 23px;
+}
+
+.wiki-header img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  padding: 1pc;
+}
+
+.search_bar input[type="text"] {
+  font-size: 15px;
+  width: 50vh;
+  margin-left: 30px;
+}
+
+.search_bar button {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 120vh;
+  height: 100%;
+}
+
+.content_title {
+  line-height: 0;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.sub_title {
+  border-bottom: 1px solid black;
+  height: 28px;
+}
+
+.content p {
+  text-align: justify;
+  width: 100%;
+}
+
+.side_menu {
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+  border-right: 1px solid #e9ecef;
+}
+
+.side_menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side_menu ul a {
+  text-decoration: none;
+  color: #343a40;
+  display: block;
+  padding: 5px 0;
+}
+
+.side_menu ul a:hover {
+  color: #007bff;
+}
+
+ul,
+ol {
+  line-height: 23px;
+}
+
+span {
+  font-style: italic;
+}
+
+h3 {
+  line-height: 1;
+}
