@@ -1,0 +1,65 @@
+
+* {
+  color: var(--fontColor);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
+
+.btn:focus {outline-style: none;}
+
+.light-theme {
+  --bg: var(--white);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--white);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ul,
+ol {
+  line-height: 23px;
+}
+
+span {
+  font-style: italic;
+}
+
+h3 {
+  line-height: 1;
+}
+
+@import "./header";
+@import "./content";
+@import "./side_menu";
+
+
+
+@import "./responsive";

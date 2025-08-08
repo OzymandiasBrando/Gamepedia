@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 120vh;
+  height: 100%;
+  
+  p {
+    text-align: justify;
+    width: 100%;
+  }
+}
+
+.content_title {
+  line-height: 0;
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+.sub_title {
+  border-bottom: 1px solid black;
+  height: 28px;
+}
