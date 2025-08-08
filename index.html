@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GamerpediA</title>
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
-  <body>
+  <body class="light-theme">
     <main>
       <header>
         <div class="wiki-header" id="start">
@@ -22,6 +20,9 @@
           <input type="text" placeholder="Search.." name="search_bar" />
           <button type="submit">Submit<i class="submit-search"></i></button>
         </div>
+        <div>
+          <button class="btn">Dark</button>
+        </div>
       </header>
 
       <div class="content">
@@ -29,7 +30,6 @@
           <h1>Games</h1>
           <p>From Gamepedia</p>
         </div>
-
         <div class="information">
           <p>
             A game is a structured type of play, usually undertaken for
@@ -736,10 +736,11 @@
       <ul>
         <a href="#start">Start</a>
         <a href="#definitions">Definitions</a>
-        <a href="#gameplay_elements">Gameplay elements</a>
+       <a href="#gameplay_elements">Gameplay elements</a>
         <a href="#types">Types</a>
         <a href="#see_also">See also</a>
       </ul>
     </aside>
+    <script src="./src/script.js"></script>
   </body>
 </html>
